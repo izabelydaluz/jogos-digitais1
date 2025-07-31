@@ -1,2 +1,1 @@
-# jogos-digitais1
-projeto jogos digitais 1
+<h2> olá prazer,sou izabely ! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
