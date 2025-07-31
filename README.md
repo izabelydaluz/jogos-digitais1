@@ -4,3 +4,8 @@
   <a href="https://github.com/izabelydaluz">
   <img  height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MariMelo1&layout=compact&theme=monokai&show_icons=true" />
   </div>
+
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuilhermePoma&layout=compact&theme=apprentice&show_icons=true" alt="Top Languages" loading="lazy"/>
+</p>
