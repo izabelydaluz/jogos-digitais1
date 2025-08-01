@@ -20,7 +20,7 @@
 
 </p>
 
-<h2 align="center">°✉Contatos☎°</h2>
+<h2 align="center">°☎Contatos°</h2>
 
 <p align="center">
   <a href="https://www.instagram.com/izabelydaluz" target="_blank">
