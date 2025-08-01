@@ -1,4 +1,9 @@
-<h2 >olá prazer,sou izabely ! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<h2 >°olá sou izabely🖥️📚°  <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+
+
+<p align="center">
+  🎓Sou uma estudante da 2ª fase do curso de Informática na SATC.Atualmente, <br>estou buscando aprender e desenvolver cada vez mais.
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=izabelydaluz&layout=compact&theme=apprentice&show_icons=true" alt="Top Languages" loading="lazy"/>
