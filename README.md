@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  ✨🎓Sou uma estudante da 2ª fase do curso de Informática na SATC.Atualmente, <br>estou buscando aprender e desenvolver cada vez mais.
+  ✨🎓Sou uma estudante da 2ª fase do curso de Informática na SATC.Atualmente,🎓✨ <br>estou buscando aprender e desenvolver cada vez mais.
 </p>
 
 <p align="center">
