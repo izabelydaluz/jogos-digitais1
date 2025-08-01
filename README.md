@@ -1,4 +1,4 @@
-<h2 >°olá sou izabely🖥️📚°  <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<h2 >°olá sou izabely🖥️📚°  <img src="[https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGRlN3J3NHZyY2Fudng0YjlnOXBucDI2bHc3ajBjaXJ4cWt0dzd0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HEgUFl2cisPXDqZiA8/giphy.gif)" width="50"></h2>
 
 
 <p align="center">
