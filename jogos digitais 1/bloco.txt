@@ -1,0 +1,1 @@
+ o único componente que tem em tds os game objects é o transform
