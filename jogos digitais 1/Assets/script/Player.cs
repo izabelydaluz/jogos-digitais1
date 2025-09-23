@@ -32,16 +32,16 @@ public class Player : MonoBehaviour
         if (teclas > 0 && isground == true)//se for + q 0
         {
             transform.eulerAngles = new Vector2(0, 0); //vai para a direita
-            anim.SetInteger("transition", 1);
+            anim.SetInteger("Transition", 1);
         }
         if (teclas < 0 && isground == true)//se for menor
         {
             transform.eulerAngles = new Vector2(0, 180); //vira para esquerda
-            anim.SetInteger("transition", 1);
+            anim.SetInteger("Transition", 1);
         }
         if (teclas == 0 && isground == true) //se for igual
         {
-            anim.SetInteger("transition", 0);//fica parado virado normal
+            anim.SetInteger("Transition", 0);//fica parado virado normal
         }
     }
     void jump()
@@ -49,8 +49,8 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isground == true)//se a tecla for precionada para baixo e o chão for vdd
         {
             rigd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            anim.SetInteger("transition", 2);
-            isground = false;
+            anim.SetInteger("Transition", 2);
+            isground = true;
         }
 
     }
@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "tagGround")
         {
-            isground = true;
+            isground = false;
             Debug.Log("esta no chão");
         }
     }
