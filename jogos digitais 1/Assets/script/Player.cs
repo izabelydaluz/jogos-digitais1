@@ -12,10 +12,14 @@ public class Player : MonoBehaviour
     //pulo
     public float jumpForce = 5f;//configurar a força do pulo(posso configurar ou dar direto)
     public bool isground;//para ver se ele ta no chão
+
+    public Vector2 posicaoI;//chamo o vetor x e y
+    public Gamemanager gamemanager;//chamo tbm o gamermanager
     void Start()
     {
         anim=GetComponent<Animator>();//digo de onde o anim é
         rigd = GetComponent<Rigidbody2D>();//digo de onde o rigd é
+        posicaoI = transform.position; //pega a posição inicial
     }
 
     // Update is called once per frame
@@ -24,6 +28,15 @@ public class Player : MonoBehaviour
         Move();//chamo o move pra cá
         jump();//chamo o pulo 
     }
+
+    public void reiniciarposicao()
+    {
+
+        transform.position = posicaoI;
+
+    }
+
+
     void Move()
     {
         float teclas = Input.GetAxis("Horizontal");//eu configuro as teclas horizontais

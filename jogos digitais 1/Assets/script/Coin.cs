@@ -4,6 +4,7 @@ public class Coin : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private int point = 0;//crio a variael ponto
+    public Gamemanager gamemanager;
     void Start()
     {
         
@@ -18,7 +19,9 @@ public class Coin : MonoBehaviour
     {
         if (collision.CompareTag("Player"))//comparo ela com o player
         {
-            Debug.Log("colidiu");  //informo que houve colisão
+            gamemanager.Addpontos(5);
+            Destroy(gameObject);
+
         }
     }
 }

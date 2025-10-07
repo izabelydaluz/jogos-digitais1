@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - tileGround
+  - quadrado
   layers:
   - Default
   - TransparentFX
