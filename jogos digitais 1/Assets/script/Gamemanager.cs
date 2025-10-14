@@ -1,11 +1,12 @@
 using UnityEngine;
-
+using TMPro;
 public class Gamemanager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public int pontos = 0; //crio os pontos e as vidas
     public int vidas = 3;
 
+    public TextMeshProUGUI textPontos;
     public void Addpontos(int qtd)
     {
         pontos += qtd;
@@ -18,7 +19,8 @@ public class Gamemanager : MonoBehaviour
 
         }
 
-
+        textPontos.text = "pontos: " + pontos;
+        Debug.Log("prontos: " + pontos);
     }
     public void perdervidas(int vida)
     {
