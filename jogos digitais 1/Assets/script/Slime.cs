@@ -18,8 +18,11 @@ public class slime : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"));
+        if (collision.gameObject.CompareTag("Player"))
 
-        gamemanager.perdervidas(1);
+        {
+            gamemanager.PerderV(1);
+        }
+
     }
 }

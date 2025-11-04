@@ -18,8 +18,11 @@ public class Quadrado : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player")) ;
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            gamemanager.PerderV(1);
+        }
 
-        gamemanager.perdervidas(1);
+        
     }
 }
