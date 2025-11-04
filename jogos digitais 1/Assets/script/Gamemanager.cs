@@ -42,5 +42,19 @@ public class Gamemanager : MonoBehaviour
 
         
     }
+    public void PerderP(int point)
+    {
+        Debug.Log("pontos: " + pontos);
+        GameObject player = GameObject.FindWithTag("Player");
+        player.GetComponent<Player>().reiniciarposicao();
+        pontos -= point;
+        if (pontos <= 0)
+        {
+            pontos = 0;
+
+        }
+        textPontos.text = "pontos: " + pontos;
+        Debug.Log("pontos: " + pontos);
+    }
 
 }
