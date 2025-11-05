@@ -1,25 +1,24 @@
 using UnityEngine;
-
-public class Coin : MonoBehaviour
+public class Coracao : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private int point = 0;//crio a variael ponto
+    private int vida = 1;//crio a variael ponto
     public Gamemanager Gamemanager;
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))//comparo ela com o player
         {
-            Gamemanager.Addpontos(5);
+            Gamemanager.Addvidas(1);
             Destroy(gameObject);
 
         }

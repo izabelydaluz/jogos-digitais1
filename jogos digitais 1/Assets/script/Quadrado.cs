@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Quadrado : MonoBehaviour
 {
-    public Gamemanager gamemanager;
+    public Gamemanager Gamemanager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,8 +20,9 @@ public class Quadrado : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            gamemanager.PerderV(1);
-            gamemanager.PerderP(5);
+            Gamemanager.PerderV(1);
+            Gamemanager.PerderP(5);
+            
         }
 
         
