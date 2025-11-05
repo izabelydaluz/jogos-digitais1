@@ -22,6 +22,7 @@ public class slime : MonoBehaviour
 
         {
             gamemanager.PerderV(1);
+            gamemanager.PerderP(5);
         }
 
     }

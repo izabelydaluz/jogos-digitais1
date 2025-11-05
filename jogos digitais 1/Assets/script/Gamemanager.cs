@@ -40,7 +40,6 @@ public class Gamemanager : MonoBehaviour
             vidas = 0;
 
             Time.timeScale = 0;
-            SceneManager.LoadScene(2);
 
             Debug.Log("gamer-over");
 
@@ -86,20 +85,6 @@ public class Gamemanager : MonoBehaviour
         Debug.Log("vidas: " + vidas);
     }
 
-    public void PerderP(int point)
-    {
-        Debug.Log("pontos: " + pontos);
-        GameObject player = GameObject.FindWithTag("Player");
-        player.GetComponent<Player>().reiniciarposicao();
-        pontos -= point;
-        if (pontos <= 0)
-        {
-            pontos = 0;
-
-        }
-        textPontos.text = "pontos: " + pontos;
-        Debug.Log("pontos: " + pontos);
-    }
 
 
 }

@@ -21,6 +21,7 @@ public class Quadrado : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             gamemanager.PerderV(1);
+            gamemanager.PerderP(5);
         }
 
         
